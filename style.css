@@ -1,0 +1,75 @@
+.question{
+    text-align: center;
+    font-size: 50px;
+}
+.ans{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.answer{
+    font-size: 25px;
+    border: 1px solid black;
+    padding: 5px;
+    background-image: linear-gradient(red,orange);
+}
+.start2{
+    display: block;
+   text-align: center;
+   font-size:50px;
+   color:rgb(255, 187, 0);
+   text-shadow: 2px 3px 4px black;
+    background-image: linear-gradient(black,rgb(210, 203, 0),rgb(113, 123, 0));
+}
+.container{
+    display: none;
+}
+.answer:hover{
+    transform:scale(1.5);
+    transition-duration: 1s;
+}
+.logo{
+    width:50px;
+    height:50px;
+}
+nav a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    border:5px double black;
+color: crimson;
+text-align: center;
+}
+.start1{
+   display: block;
+   text-align: center;
+   font-size:50px;
+   color:lime;
+   text-shadow: 2px 3px 4px black;
+    background-image: linear-gradient(black,lime,green);
+}
+.start3{
+    display: block;
+   text-align: center;
+   font-size:50px;
+   color:rgb(255, 0, 0);
+   text-shadow: 2px 3px 4px black;
+    background-image: linear-gradient(black,rgb(162, 0, 0),rgb(88, 0, 0));
+}
+header h1{
+    background-image: linear-gradient(cyan,blue,black);
+    text-align: center;
+    border-radius: 25px;
+    color:white;
+}
+footer{
+    background-image: linear-gradient(blue,rgb(1, 1, 82),black);
+    border-radius:15px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+.haha{
+    width:450px;
+    height:50px;
+}
